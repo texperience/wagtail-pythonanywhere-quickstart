@@ -1,0 +1,12 @@
+# IDE project files
+.idea/
+
+# Byte-compiled and optimized files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+*.egg-info/
+
+# Development databases
+db.sqlite3
