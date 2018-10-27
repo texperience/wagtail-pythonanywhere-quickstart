@@ -4,13 +4,13 @@ from setuptools import setup
 
 # Installation dependencies
 install_requires = [
-   'django>= 1.11,<1.12',
-   'wagtail>=1.12,<1.13',
+   'django>=1.11,<1.12',
+   'wagtail>=2.3,<2.4',
 ]
 
 setup(
     name='wagtail-pythonanywhere-quickstart',
-    version='1.0.0',
+    version='1.0.1',
     license='ISC License (ISCL)',
     description='Wagtail CMS quickstart for deployment on PythonAnywhere',
     long_description=open('README.rst').read(),
@@ -25,6 +25,10 @@ setup(
         'Framework :: Django :: 1.8',
         'Framework :: Django :: 1.10',
         'Framework :: Django :: 1.11',
+        'Framework :: Django :: 2.0',
+        'Framework :: Django :: 2.1',
+        'Framework :: Wagtail :: 1',
+        'Framework :: Wagtail :: 2',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: ISC License (ISCL)',
         'Operating System :: OS Independent',

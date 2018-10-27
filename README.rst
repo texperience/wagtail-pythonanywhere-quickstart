@@ -1,7 +1,7 @@
 wagtail-pythonanywhere-quickstart
 =================================
 
-.. image:: https://img.shields.io/badge/version-v1.0.0-blue.svg
+.. image:: https://img.shields.io/badge/version-v1.0.1-blue.svg
 
 .. image:: https://img.shields.io/badge/license-ISC%20License%20(ISCL)-blue.svg
     :target: http://en.wikipedia.org/wiki/ISC_license
@@ -31,15 +31,9 @@ Recommendations
 Technical requirements
 ----------------------
 
-Below is the list of currently supported combinations of Wagtail, Django and Python:
+This quickstart uses Wagtail 2.3 LTS and Django 1.11 LTS on Python 3.6, so that you can get along without updates for as long as possible. You may change this requirements to your needs. For all supported combinations of Wagtail, Django and Python please refer to the `Wagtail documentation`_.
 
-+---+---------+-----------+--------------------+
-| # | Wagtail | Django    | Python             |
-+===+=========+===========+====================+
-| 1 | 1.12    | 1.8, 1.10 | 2.7, 3.4, 3.5      |
-+---+---------+-----------+--------------------+
-| 2 | 1.12    | 1.11      | 2.7, 3.4, 3.5, 3.6 |
-+---+---------+-----------+--------------------+
+.. _Wagtail documentation: https://docs.wagtail.io/en/stable/releases/upgrading.html
 
 Set up the python application
 -----------------------------
