@@ -57,7 +57,7 @@ Set up the python application
 
 * Prepare a local configuration file
 
-  * Create a new file called ``local.py`` under ``wagtail-pythonanywhere-quickstart/settings``
+  * Create a new file called ``local.py`` under ``mysite/settings``
   * Define at least the ``SECRET_KEY`` and ``ALLOWED_HOSTS`` settings
   * Typically you may want to define ``DATABASES`` and point ``MEDIA_ROOT`` as well as ``STATIC_ROOT`` to a persistent directory
 
