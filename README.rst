@@ -1,3 +1,6 @@
+This repository is not longer maintained! I have been moving to Docker deployments and therefore don't use this as a base anymore. Therefore the base technologies like Python, Django and Wagtail are a bit outdated to start a new project, but of course you can still use this repository as inspiration for your own work!
+###############################################################################################################################################################################################################################################################################################
+
 wagtail-pythonanywhere-quickstart
 =================================
 
